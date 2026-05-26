@@ -1,0 +1,13 @@
+# Exclude the virtual environment
+.venv/
+
+# Exclude the local vector database folder
+db/
+
+# Exclude any environment variables/API keys that might be added later
+.env
+*.env
+
+# Python cache files
+__pycache__/
+*.pyc
